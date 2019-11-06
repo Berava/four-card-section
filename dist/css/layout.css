@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+/* Title section */
+
+.title {
+  /* margin: 5rem auto; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* cards section */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card img {
+  align-self: flex-end;
+}
