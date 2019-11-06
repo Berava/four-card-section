@@ -1,0 +1,33 @@
+/* Mobile First */
+:root {
+  /* Primary Colors */
+  --clr-primary-red: hsl(0, 78%, 62%);
+  --clr-primary-cyan: hsl(180, 62%, 55%);
+  --clr-primary-orange: hsl(34, 97%, 64%);
+  --clr-primary-blue: hsl(212, 86%, 64%);
+
+  /* Neutral Colors */
+  --clr-neutral-dark: hsl(234, 12%, 34%);
+  --clr-neutral-gray: hsl(229, 6%, 66%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--clr-neutral-gray);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
